@@ -70,11 +70,10 @@ nav {
 }
 
 .pic img {
-  overflow:hidden;
   cursor: -webkit-zoom-in;
   object-fit: cover;
   transition: 0.3s ease-in-out;
-  margin-right:100%;
+  margin-left:50%;
 }
 
 .pic img:hover {
