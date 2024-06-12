@@ -72,7 +72,7 @@ nav {
 .size{
   width:300px;
   height:auto;
-  float:left;
+  margin-right:75%;
 }
 
 .pic img {
