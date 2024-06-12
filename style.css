@@ -35,10 +35,18 @@ nav {
   box-sizing: border-box;
 }
 
-#description1 {
+.description{
   position:absolute;
-  bottom:50%;
   left:50%;
+}
+  
+
+#description1 {
+  bottom:50%;
+}
+
+#description2 {
+  bottom:100%;
 }
 
 .modal {
