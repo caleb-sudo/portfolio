@@ -6,6 +6,10 @@
   padding: 20px
 }
 
+.align{
+  text-align:center;
+}
+
 .menu:hover {
   scale: 1.1;
 }
