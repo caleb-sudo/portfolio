@@ -69,10 +69,12 @@ nav {
   padding: 10px;
 }
 
-.size{
+.image{
   width:300px;
   height:auto;
-  margin-right:75%;
+  position: absolute;
+  left:10%;
+  top:30%;
 }
 
 .pic img {
