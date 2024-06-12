@@ -69,9 +69,12 @@ nav {
   padding: 10px;
 }
 
+.size{
+  width:300px;
+  height:auto;
+}
+
 .pic img {
-  width: 200px;
-  height: auto;
   overflow:hidden;
   cursor: -webkit-zoom-in;
   margin-left:15%;
