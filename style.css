@@ -73,8 +73,8 @@ nav {
   cursor: -webkit-zoom-in;
   object-fit: cover;
   transition: 0.3s ease-in-out;
-  margin-left:50%;
   overflow:hidden;
+  margin-left:-55%;
 }
 
 .pic img:hover {
