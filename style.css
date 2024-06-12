@@ -52,35 +52,35 @@ nav {
 }
 
 #description2 {
-  bottom: 0%;
+  bottom: -15%;
 }
 
 #description3 {
-  bottom: -30%;
+  bottom: -50%;
 }
 
 #description4 {
-  bottom: 200%;
+  bottom: -110%;
 }
 
 #description5 {
-  bottom: 250%;
+  bottom: -190%;
 }
 
 #description6 {
-  bottom: 300%;
+  bottom: -250%;
 }
 
 #description7 {
-  bottom: 350%;
+  bottom: -310%;
 }
 
 #description8 {
-  bottom: 400%;
+  bottom: -390%;
 }
 
 #description9 {
-  bottom: 450%;
+  bottom: -450%;
 }
 
 .modal {
