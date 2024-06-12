@@ -20,18 +20,18 @@ let imgModal = (src) => {
     closeBtn.onclick = () => {
         modal.remove();
     };
-  const nextBtn = document.createElement("i");
-  nextBtn.setAttribute("class", "fas fa-angle-right nextBtn");
-  nextBtn.onclick = () => {
-      newImage.setAttribute("src", nextImg())
-  };
-  const prevBtn = document.createElement("i");
-  prevBtn.setAttribute("class", "fas fa-angle-left prevBtn");
-  prevBtn.onclick = () => {
-      newImage.setAttribute("src", prevImg())
-  }
-  modal.append(newImage, closeBtn, nextBtn, prevBtn)
-  };
+    const nextBtn = document.createElement("i");
+    nextBtn.setAttribute("class", "fas fa-angle-right nextBtn");
+    nextBtn.onclick = () => {
+        newImage.setAttribute("src", nextImg())
+    };
+    const prevBtn = document.createElement("i");
+    prevBtn.setAttribute("class", "fas fa-angle-left prevBtn");
+    prevBtn.onclick = () => {
+        newImage.setAttribute("src", prevImg())
+    }
+    modal.append(newImage, closeBtn, nextBtn, prevBtn)
+};
 let nextImg = () => {
     imgIndex++;
     if (imgIndex >= images.length) {
