@@ -11,6 +11,22 @@
 </head>
 
 <body>
+  <?php
+      $name = $email = $msg = "";
+      $nameERR = $emailERR = $msgERR = "";
+  
+      if ($_SERVER["REQUEST_METHOD"] == "POST") {
+          if (empty($_POST["name"])) {
+              $nameERR = "Required";
+          }
+          if (empty($_POST["email"])) {
+              $emailERR = "Required";
+          }
+          if (empty($_POST["msg"])) {
+              $msg = "Required";
+          }
+      }
+  ?>
   <header>
     <h1>
       <b>
@@ -62,9 +78,18 @@
   <br>
   <hr>
   <section>
-    <div id="contact_information">
-      hello
-    </div>
+    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?></form>" id="contact_information" method="post">
+      <input type="text" placeholder="Your Name" name="name">
+      <span class="ERR">*<?php echo $nameERR;?></span>
+      <br>
+      <input type="email" placeholder="Your email" name="email">
+      <span class="ERR">*<?php echo $emailERR;?></span>
+      <br>
+      <textarea name="msg" placeholder="message" cols="6" rows="40"></textarea>
+      <span class="ERR">*<?php echo $msgERR;?></span>
+      <br>
+      <input type="submit" name="submit">
+    </form>
   </section>
   <footer>
     <p>
