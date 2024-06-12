@@ -15,6 +15,10 @@
   justify-content: center;
 }
 
+#contact-information{
+  float:right;
+}
+
 nav {
   display: flex;
   justify-content: center;
