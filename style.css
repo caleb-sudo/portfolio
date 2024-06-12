@@ -124,6 +124,7 @@ nav {
 .logo {
   width: 500px;
   height: auto;
+  cursor:pointer;
 }
 
 .closeBtn:hover {
