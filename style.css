@@ -74,6 +74,7 @@ nav {
   object-fit: cover;
   transition: 0.3s ease-in-out;
   margin-left:50%;
+  overflow:hidden;
   position:absolute;
   left:10px;
   top:10px;
