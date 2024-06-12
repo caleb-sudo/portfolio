@@ -41,10 +41,12 @@ nav {
   width:100px;
   height:auto;
   margin-right:80%;
+  overflow:hidden;
 }
 
 .pic-description {
-  margin-left:80%;
+  float:right;
+}
 
 .modal {
   width: 100%;
