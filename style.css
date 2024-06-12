@@ -6,8 +6,8 @@
   padding: 20px
 }
 
-.align{
-  text-align:center;
+.align {
+  text-align: center;
 }
 
 .menu:hover {
@@ -19,13 +19,15 @@
   justify-content: center;
 }
 
-#contact_information{
-  float:right;
-  margin-right:10%;
+#contact_information {
+  float: right;
+  margin-right: 10%;
 }
-.ERR{
-  color:red;
+
+.ERR {
+  color: red;
 }
+
 nav {
   display: flex;
   justify-content: center;
@@ -39,18 +41,46 @@ nav {
   box-sizing: border-box;
 }
 
-.description{
-  position:absolute;
-  left:50%;
+.description {
+  position: absolute;
+  left: 50%;
 }
-  
+
 
 #description1 {
-  bottom:50%;
+  bottom: 50%;
 }
 
 #description2 {
-  bottom:100%;
+  bottom: 100%;
+}
+
+#description3 {
+  bottom: 150%;
+}
+
+#description4 {
+  bottom: 200%;
+}
+
+#description5 {
+  bottom: 250%;
+}
+
+#description6 {
+  bottom: 300%;
+}
+
+#description7 {
+  bottom: 350%;
+}
+
+#description8 {
+  bottom: 400%;
+}
+
+#description9 {
+  bottom: 450%;
 }
 
 .modal {
@@ -87,10 +117,10 @@ nav {
   cursor: -webkit-zoom-in;
   object-fit: cover;
   transition: 0.3s ease-in-out;
-  overflow:hidden;
-  margin-left:-55%;
-  height:500px;
-  width:auto;
+  overflow: hidden;
+  margin-left: -55%;
+  height: 500px;
+  width: auto;
 }
 
 .pic img:hover {
@@ -139,7 +169,7 @@ nav {
 .logo {
   width: 500px;
   height: auto;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .closeBtn:hover {
