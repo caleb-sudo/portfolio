@@ -17,6 +17,7 @@
 
 #contact_information{
   float:right;
+  margin-right:10%;
 }
 .ERR{
   color:red;
