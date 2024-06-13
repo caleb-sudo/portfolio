@@ -112,7 +112,7 @@ nav {
   padding: 10px;
 }
 
-.pic img {
+.pic {
   cursor: -webkit-zoom-in;
   object-fit: cover;
   transition: 0.3s ease-in-out;
