@@ -118,7 +118,7 @@ nav {
   transition: 0.3s ease-in-out;
   overflow: hidden;
   margin-left: -55%;
-  height: 200px;
+  height: auto;
   width: auto;
   display: block;
   position: relative;
