@@ -22,11 +22,13 @@ let imgModal = (src) => {
     };
     const nextBtn = document.createElement("i");
     nextBtn.setAttribute("class", "fas fa-angle-right nextBtn");
+    nextBtn.style.cursor = "pointer";
     nextBtn.onclick = () => {
         newImage.setAttribute("src", nextImg())
     };
     const prevBtn = document.createElement("i");
     prevBtn.setAttribute("class", "fas fa-angle-left prevBtn");
+    prevBtn.style.cursor = "pointer";
     prevBtn.onclick = () => {
         newImage.setAttribute("src", prevImg())
     }
