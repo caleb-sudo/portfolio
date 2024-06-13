@@ -163,7 +163,6 @@ nav {
   object-fit: cover;
   transition: 0.3s ease-in-out;
   overflow: hidden;
-  margin-left: -55%;
   height: auto;
   width: auto;
   display: block;
