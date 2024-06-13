@@ -140,15 +140,16 @@ nav {
   cursor:pointer;
   top:50%;
   bottom:50%;
+  scale:2;
 }
 
 .prevBtn{
-  left:25%;
+  left:15%;
   color:green;
 }
 
 .nextBtn{
-  right:25%;
+  right:30%;
   color:red;
 }
 
