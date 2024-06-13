@@ -84,20 +84,6 @@ nav {
   bottom: -450%;
 }
 
-#before,
-#after{
-  display:flex;
-  overflow:hidden;
-}
-
-#before{
-  float:left;
-}
-
-#after{
-  float:right;
-}
-
 .button1{
   background-color:blue;
   color:white;
