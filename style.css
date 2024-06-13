@@ -44,6 +44,8 @@ nav {
 .description {
   position: absolute;
   left: 50%;
+  font-size:x-large;
+  padding:20px;
 }
 
 #description1 {
@@ -67,7 +69,7 @@ nav {
 }
 
 #description6 {
-  bottom: -250%;
+  bottom: -270%;
 }
 
 #description7 {
