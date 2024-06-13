@@ -134,6 +134,24 @@ nav {
   animation: zoom 0.3s ease-in-out;
 }
 
+.prevBtn,
+.nextBTN{
+  position:absolute;
+  cursor:pointer;
+  top:50%;
+  bottom:50%;
+}
+
+.prevBtn{
+  left:25%;
+  color:green;
+}
+
+.nextBtn{
+  right:25%;
+  color:red;
+}
+
 @keyframes zoom {
   from {
     transform: scale(0);
