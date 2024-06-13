@@ -174,10 +174,6 @@ nav {
   position: relative;
 }
 
-.imageL {
-  margin-left:-55%;
-}
-
 .pic img:hover {
   transform: scale(1.1);
 }
