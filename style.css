@@ -1,3 +1,8 @@
+body {
+  display:block;
+  overflow:hidden;
+}
+  
 .menu {
   cursor: pointer;
   padding-left: 90px;
@@ -167,6 +172,10 @@ nav {
   width: auto;
   display: block;
   position: relative;
+}
+
+.imageL {
+  margin-left:-55%;
 }
 
 .pic img:hover {
