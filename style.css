@@ -6,6 +6,10 @@
   padding: 20px
 }
 
+#button1{
+  z-index:1;
+}
+
 .align {
   text-align: center;
 }
