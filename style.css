@@ -43,45 +43,8 @@ nav {
 
 .description {
   position: relative;
-  left: 50%;
   font-size:x-large;
   padding:20px;
-}
-
-#description1 {
-  bottom: 50%;
-}
-
-#description2 {
-  bottom: -15%;
-}
-
-#description3 {
-  bottom: -50%;
-}
-
-#description4 {
-  bottom: -110%;
-}
-
-#description5 {
-  bottom: -190%;
-}
-
-#description6 {
-  bottom: -270%;
-}
-
-#description7 {
-  bottom: -310%;
-}
-
-#description8 {
-  bottom: -390%;
-}
-
-#description9 {
-  bottom: -450%;
 }
 
 .button1{
