@@ -44,8 +44,8 @@ nav {
 .description {
   position: absolute;
   left: 50%;
-  font-size:x-large;
-  padding:20px;
+  font-size: x-large;
+  padding: 20px;
 }
 
 #description1 {
@@ -84,29 +84,29 @@ nav {
   bottom: -450%;
 }
 
-.button1{
-  background-color:blue;
-  color:white;
-  height:20px;
-  width:auto;
-  border:1px solid black;
-  border-radus:30%;
-  position:fixed;
-  display:flex;
-  overflow:hidden;
-  z-index:1;
-  cursor:pointer;
-  float:right;
-  margin-right:20px;
+.button1 {
+  background-color: blue;
+  color: white;
+  height: 20px;
+  width: auto;
+  border: 1px solid black;
+  border-radus: 30%;
+  position: fixed;
+  display: flex;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+  float: right;
+  margin-right: 20px;
 }
 
-.button1:hover{
-  scale:1.1;
-  shadow:4 3 8;
+.button1:hover {
+  scale: 1.1;
+  shadow: 4 3 8;
 }
 
-.button1:click{
-  opacity:0.4;
+.button1:click {
+  opacity: 0.4;
 }
 
 .modal {
@@ -123,22 +123,22 @@ nav {
 }
 
 .prevBtn,
-.nextBtn{
-  position:absolute;
-  cursor:pointer;
-  top:50%;
-  bottom:50%;
-  scale:2;
+.nextBtn {
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  bottom: 50%;
+  scale: 2;
 }
 
-.prevBtn{
-  left:15%;
-  color:green;
+.prevBtn {
+  left: 15%;
+  color: green;
 }
 
-.nextBtn{
-  right:30%;
-  color:red;
+.nextBtn {
+  right: 30%;
+  color: red;
 }
 
 @keyframes zoom {
@@ -156,6 +156,18 @@ nav {
   text-align: center;
   position: absolute;
   padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .pic {
@@ -248,5 +260,5 @@ nav {
 }
 
 .closeBtn:hover {
-  background-color:red;
+  background-color: red;
 }
