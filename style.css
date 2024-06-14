@@ -165,6 +165,7 @@ nav {
   width: auto;
   display: block;
   position: relative;
+  margin-left:-55%;
 }
 
 .pic img:hover {
