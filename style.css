@@ -44,32 +44,69 @@ nav {
 .description {
   position: relative;
   left: 50%;
-  font-size: x-large;
-  padding: 20px;
+  font-size:x-large;
+  padding:20px;
 }
 
-.button1 {
-  background-color: blue;
-  color: white;
-  height: 20px;
-  width: auto;
-  border: 1px solid black;
-  border-radius:20%;
-  position: fixed;
-  display: flex;
-  overflow: hidden;
-  z-index: 1;
-  cursor: pointer;
-  float: right;
-  margin-right: 20px;
+#description1 {
+  bottom: 50%;
 }
 
-.button1:hover {
-  scale: 1.1;
+#description2 {
+  bottom: -15%;
 }
 
-.button1:click {
-  opacity: 0.4;
+#description3 {
+  bottom: -50%;
+}
+
+#description4 {
+  bottom: -110%;
+}
+
+#description5 {
+  bottom: -190%;
+}
+
+#description6 {
+  bottom: -270%;
+}
+
+#description7 {
+  bottom: -310%;
+}
+
+#description8 {
+  bottom: -390%;
+}
+
+#description9 {
+  bottom: -450%;
+}
+
+.button1{
+  background-color:blue;
+  color:white;
+  height:20px;
+  width:auto;
+  border:1px solid black;
+  border-radus:30%;
+  position:fixed;
+  display:flex;
+  overflow:hidden;
+  z-index:1;
+  cursor:pointer;
+  float:right;
+  margin-right:20px;
+}
+
+.button1:hover{
+  scale:1.1;
+  shadow:4 3 8;
+}
+
+.button1:click{
+  opacity:0.4;
 }
 
 .modal {
@@ -86,22 +123,22 @@ nav {
 }
 
 .prevBtn,
-.nextBtn {
-  position: absolute;
-  cursor: pointer;
-  top: 50%;
-  bottom: 50%;
-  scale: 2;
+.nextBtn{
+  position:absolute;
+  cursor:pointer;
+  top:50%;
+  bottom:50%;
+  scale:2;
 }
 
-.prevBtn {
-  left: 15%;
-  color: green;
+.prevBtn{
+  left:15%;
+  color:green;
 }
 
-.nextBtn {
-  right: 30%;
-  color: red;
+.nextBtn{
+  right:30%;
+  color:red;
 }
 
 @keyframes zoom {
@@ -121,18 +158,6 @@ nav {
   padding: 10px;
 }
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 .pic {
   cursor: -webkit-zoom-in;
   object-fit: cover;
@@ -140,23 +165,8 @@ nav {
   overflow: hidden;
   height: auto;
   width: auto;
+  display: block;
   position: relative;
-}
-
-.container {
-  position: relative;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.container .content {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
 }
 
 .pic img:hover {
@@ -238,5 +248,5 @@ nav {
 }
 
 .closeBtn:hover {
-  background-color: red;
+  background-color:red;
 }
